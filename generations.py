@@ -147,7 +147,7 @@ try:
     excel_buffer = io.BytesIO()
 
     csv_mappings = {
-        'Usage Backup': final_backup_file ,
+        'Usage Backup': final_backup_file
     }
 
     #Write the pandas dataframe backup file to a single excel file, store in memory
